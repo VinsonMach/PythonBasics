@@ -1,5 +1,5 @@
-# Vinson Mach
-# This is my first python game: Tic Tac Toe with 2 players on the same keyboard
+# Vinson Mach 6/29/2022
+# First python game: Tic Tac Toe with 2 players on the same keyboard
 
 from IPython.display import clear_output
 import random
@@ -71,7 +71,7 @@ def display_board(board):
     print("-----")                                              # display spacer
     print(board[1] + '|' + board[2] + '|' + board[3])           # display the bottom row
 
-# Main Function will handle game into and end
+# Main Function will handle game intro and end
 def main():
 
     print('\nWelcome to a game of TicTacToe')                   # display title statement
